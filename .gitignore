@@ -1,7 +1,6 @@
 <<<<<<< HEAD
 # Compiler files
-cache/
-out/
+
 
 # Ignores development broadcast logs
 !/broadcast
@@ -15,8 +14,7 @@ docs/
 .env
 =======
 # Compiler files
-cache/
-out/
+
 
 # Ignores development broadcast logs
 !/broadcast

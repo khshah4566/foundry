@@ -64,5 +64,3 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
-# foundry
-# foundry_

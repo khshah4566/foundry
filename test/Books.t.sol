@@ -4,7 +4,7 @@ pragma solidity 0.8.13; // Or 0.8.29, if you changed it
 import "../src/Books.sol";
 import "forge-std/Test.sol";
 
-contract BooksTest is Test {
+contract TestBooks is Test {
     Books public books;
 
     function setUp() public {

@@ -4,7 +4,7 @@ pragma solidity 0.8.13;
 import "forge-std/Script.sol"; // Import Foundry's Script functionality
 import "../src/Books.sol"; // Path to your Books contract
 
-contract UpdateBookScript is Script {
+contract DeployBooks is Script {
     function run() public {
         // Deploy the contract
         Books books = new Books("Programming Foundry", "Khushil", 100);

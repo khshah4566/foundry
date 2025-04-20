@@ -24,11 +24,11 @@ contract Books {
         owner = msg.sender;
     }
 
-    function update_pages(uint256 _pages) public onlyOwner {
+    function test_update_pages(uint256 _pages) public onlyOwner {
         book.pages = _pages;
     }
 
-    function get_book() public view returns (Book memory) {
+    function test_update_pages() public view returns (Book memory) {
         return book;
     }
 }

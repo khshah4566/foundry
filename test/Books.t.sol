@@ -18,7 +18,7 @@ contract BooksTest is Test {
         assertEq(retrievedBook.pages, 100);
     }
 
-    function test_updatePages() public {
+    function test_update_pages() public {
         books.update_pages(200);
         Books.Book memory retrievedBook = books.get_book();
         assertEq(retrievedBook.pages, 200);

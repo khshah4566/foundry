@@ -11,7 +11,6 @@ contract DeployBooks is Script {
         Books books = new Books("Programming Foundry", "Khushil", 100);
 
         // Simulate the deployment
-        books.update_pages(250); // Update book pages to 250
         vm.stopBroadcast(); // End the broadcast to the blockchain
 
         // Log the updated book details

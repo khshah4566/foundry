@@ -7,10 +7,10 @@ import "../src/Books.sol"; // Path to your Books contract
 contract DeployBooks is Script {
     function run() public {
         // Deploy the contract
+        vm.startBroadcast(); // Start the broadcast to the blockchain
         Books books = new Books("Programming Foundry", "Khushil", 100);
 
         // Simulate the deployment
-        vm.startBroadcast(); // Start the broadcast to the blockchain
         books.update_pages(250); // Update book pages to 250
         vm.stopBroadcast(); // End the broadcast to the blockchain
 

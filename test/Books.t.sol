@@ -11,7 +11,7 @@ contract TestBooks is Test {
         books = new Books("Programming Foundry", "khushil", 100);
     }
 
-    function test_update_pages() public {
+    function test_get_book() public {
         Books.Book memory retrievedBook = books.get_book();
         assertEq(retrievedBook.title, "Programming Foundry");
         assertEq(retrievedBook.author, "khushil");
